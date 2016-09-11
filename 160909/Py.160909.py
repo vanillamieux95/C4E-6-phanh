@@ -72,22 +72,22 @@
 ##        print ("10 years old")
 
 #Homework 1
-##w = int(input("Your Weight (kg): "))
-##h = float(input("Your Height (m): "))
-##bmi = w/h
-##print ("Your BMI: ", bmi)
-##
-##if bmi < 16:
-##    print ("You are Severely Under Weight")
-##elif 16 <= bmi <= 18.5:
-##    print ("You are Under Weight")
-##elif 18.5 < bmi <= 25:
-##    print ("You are Normal")
-##elif 25 < bmi <= 30:
-##    print ("You are Over-weight")
-##else:
-##    print ("You are Obesed")
-##
+w = int(input("Your Weight (kg): "))
+h = float(input("Your Height (m): "))
+bmi = w/(h**2)
+print ("Your BMI: ", bmi)
+
+if bmi < 16:
+    print ("You are Severely Under Weight")
+elif 16 <= bmi <= 18.5:
+    print ("You are Under Weight")
+elif 18.5 < bmi <= 25:
+    print ("You are Normal")
+elif 25 < bmi <= 30:
+    print ("You are Over-weight")
+else:
+    print ("You are Obesed")
+
 
 #Homework 2
 
