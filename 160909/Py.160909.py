@@ -90,25 +90,24 @@
 ##
 
 #Homework 2
+
 from turtle import *
 #shape("turtle")
 speed(-1)
 
 for n in range (15, 1, -1):
-    if n % 2 == 0:
-        color("red","purple")
+    def multitangle():
         begin_fill()
         for i in range (n):
             forward(21)
             left(180-180*(n-2)/n)
         end_fill()
 
+    if n % 2 == 0:
+        color("red","purple")
+        multitangle()
+        
     else:
         color("green", "yellow")
-##        begin_fill()
-##        for i in range (n):
-##            forward(21)
-##            left(180-180*(n-2)/n)
-##        end_fill()
-
+        multitangle()
 mainloop()
