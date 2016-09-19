@@ -7,7 +7,7 @@ inventory = {
    'backpack': ['xylophone', 'dagger', 'bedroll', 'bread loaf']
 }
 #1
-inventory['pocket'] = []
+inventory['pocket'] = [] #can replace [] with None
 #2
 inventory['pocket'] = ['seashell', 'strange berry', 'lint']
 #3

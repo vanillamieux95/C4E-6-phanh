@@ -40,7 +40,7 @@ for names in names:
 ##
 ###eg:
 ##numbers = [4,5,6]
-##new_list = [numbers + 2 for 
+##new_list = [numbers + 2 for numbers in numbers]
 ##print 
 
 ##2. Open a .txt file (full names of ppl included: Le Van Hoang,
@@ -61,17 +61,17 @@ for names in names:
 ##print (x)
 
 #DOING EXCERCISE 2:
-##f = open("name-list.txt")
-##for line in f:
-##    print ("line: ", line)
-###splitted line 
-##    splitted_line = line.split()
-### Getting the first name
-##    firstname = splitted_line[-1]
-##    #l = len(splitted_line)
-##    #firstname = splitted_line[l -1]
-###addinh Hello, happy coding
-##    print ("Hello {0}, happy coding".format(firstname))
+f = open("name-list.txt")
+for line in f:
+    print ("line: ", line)
+    #splitted line 
+    splitted_line = line.split()
+    # Getting the first name
+    firstname = splitted_line[-1]
+    #l = len(splitted_line)
+    #firstname = splitted_line[l -1]
+    #addinh Hello, happy coding
+    print ("Hello {0}, happy coding".format(firstname))
    
 
 ##** Remove by index
