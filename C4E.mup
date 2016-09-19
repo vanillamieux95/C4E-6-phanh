@@ -1,0 +1,1145 @@
+{
+  "title": "C4E",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "Python",
+      "id": 2,
+      "attr": {
+        "style": {
+          "background": "#ff0000"
+        },
+        "position": [
+          122.34000000000003,
+          -44.31999999999999,
+          6
+        ]
+      },
+      "ideas": {
+        "1": {
+          "title": "functions",
+          "id": 5,
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            },
+            "position": [
+              45.15999999999997,
+              -221.68,
+              1
+            ]
+          },
+          "ideas": {
+            "1": {
+              "title": "print",
+              "id": 6,
+              "ideas": {
+                "1": {
+                  "title": "print(\"Hello world\"",
+                  "id": 12,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "print(3 + 4)",
+                  "id": 13,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "position": [
+                  89.88,
+                  -154.10000000000002,
+                  1
+                ],
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            },
+            "2": {
+              "title": "input",
+              "id": 7,
+              "ideas": {
+                "1": {
+                  "title": "n = input (\"What your name?\")",
+                  "id": 15,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            },
+            "3": {
+              "title": "int",
+              "id": 8,
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "y_int = int(\"1998\")",
+                  "id": 17,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                }
+              }
+            },
+            "7": {
+              "title": "turtle",
+              "id": 38,
+              "ideas": {
+                "1": {
+                  "title": "color",
+                  "id": 37,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "2": {
+                  "title": "forward",
+                  "id": 10,
+                  "ideas": {
+                    "1": {
+                      "title": "forward(100)",
+                      "id": 18,
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "left, right",
+                  "id": 11,
+                  "ideas": {
+                    "1": {
+                      "title": "left(30)",
+                      "id": 19,
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            }
+          }
+        },
+        "2": {
+          "title": "variables",
+          "id": 20,
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "string",
+              "id": 27,
+              "ideas": {
+                "1": {
+                  "title": "s = \"1998\"",
+                  "id": 28,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "string formating",
+                  "id": 67,
+                  "ideas": {
+                    "1": {
+                      "title": "\"This is a {0} {1}, learned in {2}{3} class\".format(\"string\", \"formatting\", \"C4E\", 6)",
+                      "id": 68,
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "position": [
+                  83.15999999999997,
+                  -55.60000000000002,
+                  1
+                ],
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            },
+            "2": {
+              "title": "int",
+              "id": 32,
+              "ideas": {
+                "1": {
+                  "title": "a = 3",
+                  "id": 33,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "c = a + 5",
+                  "id": 34,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "age = int(\"1990\")",
+                  "id": 35,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            },
+            "3": {
+              "title": "float",
+              "id": 41,
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            },
+            "4": {
+              "title": "naming",
+              "id": 49,
+              "ideas": {
+                "4": {
+                  "title": "NameError",
+                  "id": 57,
+                  "ideas": {
+                    "1": {
+                      "title": "python keywords",
+                      "id": 56,
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      },
+                      "ideas": {
+                        "1": {
+                          "title": "for",
+                          "id": 69,
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        },
+                        "2": {
+                          "title": "if-else-elif",
+                          "id": 70,
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        },
+                        "3": {
+                          "title": "while",
+                          "id": 72,
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        },
+                        "4": {
+                          "title": "def",
+                          "id": 74,
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "special characters",
+                      "id": 52,
+                      "ideas": {
+                        "1": {
+                          "title": "%",
+                          "id": 53,
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        },
+                        "2": {
+                          "title": "@",
+                          "id": 54,
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        },
+                        "3": {
+                          "title": " (space)",
+                          "id": 55,
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    },
+                    "3": {
+                      "title": "number is  first character",
+                      "id": 50,
+                      "ideas": {},
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                },
+                "5": {
+                  "title": "_4HourseMen",
+                  "id": 58,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            },
+            "5": {
+              "title": "learn",
+              "id": 62,
+              "ideas": {
+                "1": {
+                  "title": "why",
+                  "id": 63,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "initialize",
+                  "id": 64,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "access",
+                  "id": 65,
+                  "ideas": {
+                    "1": {
+                      "title": "read",
+                      "id": 66,
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "write",
+                      "id": 76,
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            },
+            "6": {
+              "title": "list",
+              "id": 77,
+              "ideas": {
+                "1": {
+                  "title": "why",
+                  "id": 78,
+                  "ideas": {
+                    "1": {
+                      "title": "store a list of things",
+                      "id": 80,
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "initalize",
+                  "id": 81,
+                  "ideas": {
+                    "1": {
+                      "title": "general",
+                      "id": 83,
+                      "ideas": {
+                        "1": {
+                          "title": "<variable_name> = [...]",
+                          "id": 84,
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "example",
+                      "id": 86,
+                      "ideas": {
+                        "1": {
+                          "title": "names = [\"thanh\", \"viet anh\"]",
+                          "id": 87,
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        },
+                        "2": {
+                          "title": "names = []",
+                          "id": 88,
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        },
+                        "3": {
+                          "title": "names = [\"viet anh\", 18]",
+                          "id": 89,
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "access",
+                  "id": 90,
+                  "ideas": {
+                    "1": {
+                      "title": "read",
+                      "id": 91,
+                      "ideas": {
+                        "1": {
+                          "title": "print(names)",
+                          "id": 92,
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        },
+                        "2": {
+                          "title": "print(names[2])",
+                          "id": 93,
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        },
+                        "3": {
+                          "title": "print(names[1 : 3])",
+                          "id": 94,
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        },
+                        "4": {
+                          "title": "for  name in names:",
+                          "id": 95,
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "write",
+                      "id": 97,
+                      "ideas": {
+                        "4": {
+                          "title": "update",
+                          "id": 101,
+                          "ideas": {
+                            "1": {
+                              "title": "names = [...]",
+                              "id": 98,
+                              "attr": {
+                                "style": {
+                                  "background": "#99cc00"
+                                }
+                              }
+                            },
+                            "2": {
+                              "title": "names[0] = \"Phanh Phanh\" #index",
+                              "id": 99,
+                              "attr": {
+                                "style": {
+                                  "background": "#99cc00"
+                                }
+                              }
+                            },
+                            "3": {
+                              "title": "names[2 : 4] = [\"trong\", \"phanh phanh phanh\"] #index",
+                              "id": 100,
+                              "attr": {
+                                "style": {
+                                  "background": "#99cc00"
+                                }
+                              }
+                            }
+                          },
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        },
+                        "5": {
+                          "title": "add new",
+                          "id": 102,
+                          "ideas": {
+                            "1": {
+                              "title": "names.append(\"Huy\")",
+                              "id": 103,
+                              "attr": {
+                                "style": {
+                                  "background": "#99cc00"
+                                }
+                              }
+                            }
+                          },
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        },
+                        "6": {
+                          "title": "remove",
+                          "id": 104,
+                          "ideas": {
+                            "2": {
+                              "title": "by value",
+                              "id": 107,
+                              "ideas": {
+                                "1": {
+                                  "title": "names.remove(\"Huy\")",
+                                  "id": 105,
+                                  "attr": {
+                                    "style": {
+                                      "background": "#99cc00"
+                                    }
+                                  }
+                                }
+                              },
+                              "attr": {
+                                "style": {
+                                  "background": "#99cc00"
+                                }
+                              }
+                            },
+                            "3": {
+                              "title": "by index",
+                              "id": 108,
+                              "ideas": {
+                                "1": {
+                                  "title": "names.pop(1)",
+                                  "id": 109,
+                                  "attr": {
+                                    "style": {
+                                      "background": "#99cc00"
+                                    }
+                                  }
+                                }
+                              },
+                              "attr": {
+                                "style": {
+                                  "background": "#99cc00"
+                                }
+                              }
+                            }
+                          },
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    },
+                    "3": {
+                      "title": "list comprehension",
+                      "id": 106,
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    },
+                    "4": {
+                      "title": "[]",
+                      "id": 141,
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            },
+            "7": {
+              "title": "dictionary",
+              "id": 110,
+              "ideas": {
+                "1": {
+                  "title": "why",
+                  "id": 111,
+                  "ideas": {
+                    "1": {
+                      "title": "present key-value pairs",
+                      "id": 112,
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "initalize",
+                  "id": 113,
+                  "ideas": {
+                    "1": {
+                      "title": "<variable_name> = {\n\"key1\" : value1,\n\"key2\" : value2,\n\"key3\" : value3 \n}",
+                      "id": 114,
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "example",
+                      "id": 115,
+                      "ideas": {
+                        "1": {
+                          "title": "person = {\n    'name' : 'hoang',\n    'age' : 18,\n    'school' : 'HUST',\n    'status' : \"It's not so complicated\",\n    'sex' : 'male',\n    }",
+                          "id": 117,
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "acess",
+                  "id": 118,
+                  "ideas": {
+                    "1": {
+                      "title": "indexing",
+                      "id": 119,
+                      "ideas": {
+                        "3": {
+                          "title": "read",
+                          "id": 126,
+                          "ideas": {
+                            "1": {
+                              "title": "<variable_name>[<key>]",
+                              "id": 121,
+                              "attr": {
+                                "style": {
+                                  "background": "#99cc00"
+                                }
+                              }
+                            },
+                            "2": {
+                              "title": "example",
+                              "id": 123,
+                              "ideas": {
+                                "1": {
+                                  "title": "print(person['name'])",
+                                  "id": 125,
+                                  "attr": {
+                                    "style": {
+                                      "background": "#99cc00"
+                                    }
+                                  }
+                                }
+                              },
+                              "attr": {
+                                "style": {
+                                  "background": "#99cc00"
+                                }
+                              }
+                            }
+                          },
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        },
+                        "4": {
+                          "title": "write or add new",
+                          "id": 127,
+                          "ideas": {
+                            "1": {
+                              "title": "<variable_name>[<key>] = value\n",
+                              "id": 128,
+                              "attr": {
+                                "style": {
+                                  "background": "#99cc00"
+                                }
+                              }
+                            },
+                            "2": {
+                              "title": "example",
+                              "id": 129,
+                              "ideas": {
+                                "1": {
+                                  "title": "person['name'] = 'trong'",
+                                  "id": 131,
+                                  "attr": {
+                                    "style": {
+                                      "background": "#99cc00"
+                                    }
+                                  }
+                                }
+                              },
+                              "attr": {
+                                "style": {
+                                  "background": "#99cc00"
+                                }
+                              }
+                            }
+                          },
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "iterating",
+                      "id": 132,
+                      "ideas": {
+                        "1": {
+                          "title": "by key only",
+                          "id": 133,
+                          "ideas": {
+                            "1": {
+                              "title": "for key in person:\n    print(key, person[key])",
+                              "id": 135,
+                              "attr": {
+                                "style": {
+                                  "background": "#99cc00"
+                                }
+                              }
+                            }
+                          },
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        },
+                        "2": {
+                          "title": "by key-value pair",
+                          "id": 136,
+                          "ideas": {
+                            "1": {
+                              "title": "for key, value in person.items():\n    print(key, value)",
+                              "id": 138,
+                              "attr": {
+                                "style": {
+                                  "background": "#99cc00"
+                                }
+                              }
+                            }
+                          },
+                          "attr": {
+                            "style": {
+                              "background": "#99cc00"
+                            }
+                          }
+                        }
+                      },
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            }
+          }
+        },
+        "3": {
+          "title": "control statements",
+          "id": 21,
+          "ideas": {
+            "2": {
+              "title": "if-else-elif",
+              "id": 43,
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            },
+            "4": {
+              "title": "loop",
+              "id": 139,
+              "ideas": {
+                "1": {
+                  "title": "for",
+                  "id": 42,
+                  "ideas": {
+                    "1": {
+                      "title": "range",
+                      "id": 44,
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    },
+                    "2": {
+                      "title": "interator",
+                      "id": 48,
+                      "attr": {
+                        "style": {
+                          "background": "#99cc00"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                },
+                "2": {
+                  "title": "while",
+                  "id": 75,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "break",
+                  "id": 140,
+                  "attr": {
+                    "style": {
+                      "background": "#99cc00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          }
+        },
+        "4": {
+          "title": "block",
+          "id": 45,
+          "ideas": {
+            "1": {
+              "title": "tab",
+              "id": 46,
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            },
+            "2": {
+              "title": ":",
+              "id": 47,
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          }
+        }
+      }
+    },
+    "2": {
+      "title": "Project management",
+      "id": 59,
+      "ideas": {
+        "1": {
+          "title": "Tools",
+          "id": 60,
+          "ideas": {
+            "1": {
+              "title": "git",
+              "id": 61,
+              "attr": {
+                "style": {
+                  "background": "#99cc00"
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#99cc00"
+        }
+      }
+    },
+    "-1": {
+      "title": "HTML",
+      "id": 3,
+      "attr": {
+        "position": [
+          115.98000000000002,
+          -53.27999999999997,
+          4
+        ],
+        "style": {
+          "background": "#ffff00"
+        }
+      }
+    },
+    "-11": {
+      "title": "CSS",
+      "id": 4,
+      "attr": {
+        "position": [
+          129.10000000000002,
+          93.27999999999997,
+          7
+        ],
+        "style": {
+          "background": "#3366ff"
+        }
+      }
+    }
+  },
+  "links": []
+}
