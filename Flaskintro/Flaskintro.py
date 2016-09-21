@@ -1,11 +1,15 @@
 from flask import Flask
+from flask import redirect
 
 app = Flask(__name__)
 
-
 @app.route('/')
 def hello_world():
-    return 'Hello World!'
+    return 'Hello Ellie!'
+
+@app.route('/school')
+def techkid():
+    return redirect('http://techkids.vn')
 
 @app.route('/index')
 def index():
