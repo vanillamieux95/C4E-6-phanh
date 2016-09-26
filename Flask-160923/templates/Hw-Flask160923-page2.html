@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Footsteps Journey</title>
+</head>
+<body>
+{% for meme in places_dict %}
+<h1>Destination: {{ info[meme].name }}</h1>
+<h2>Content: {{ info[meme].description }}</h2>
+<img src="{{ info[meme].img }}">
+<h3> </h3>
+<a href="{{ info[meme].link }}">Read more</a>
+{% endfor %}
+</body>
+</html>
