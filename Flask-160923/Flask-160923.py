@@ -12,21 +12,21 @@ class Person:  # class
 
 mocha = Person(
     "Mocha",
-    "http://uwyoextension.org/uwnutrition/wp-content/uploads/2013/02/red-velvet-cake.bmp"
+    "https://computerscience.johncabot.edu/mscaramastra/S2014/S2014CS130/Madyrova/Finalproject%20MadyrovaMaria/Cafe-mocha.jpg"
 )  # object
 # mocha.name = "Mocha"
 # mocha.cake = "http://uwyoextension.org/uwnutrition/wp-content/uploads/2013/02/red-velvet-cake.bmp"
 
 
-billgates = Person(
-    "Bill Gates",
-    "https://pbs.twimg.com/profile_images/558109954561679360/j1f9DiJi.jpeg"
+caramel = Person(
+    "Salted Cafe Mocha",
+    "http://drinks.seriouseats.com/images/2011/10/20111012-Starbucks-SaltedCaramelMocha.jpg"
 )
 
 
-# billgates = Person()
-# billgates.name = "Bill Gates"
-# billgates.cake = "https://pbs.twimg.com/profile_images/558109954561679360/j1f9DiJi.jpeg"
+# caramel = Person()
+# caramel.name = "Salted Caramel Cafe Mocha"
+# caramel.cake = "https://pbs.twimg.com/profile_images/558109954561679360/j1f9DiJi.jpeg"
 
 @app.route('/')
 @app.route('/index')
@@ -54,9 +54,9 @@ def redvelvet():
     return render_template("redvelvetcake.html", person=mocha)
 
 
-@app.route('/billgates')
+@app.route('/caramel')
 def bill_gates():
-    return render_template("redvelvetcake.html", person=billgates)
+    return render_template("redvelvetcake.html", person=caramel)
 
 
 @app.route('/school')
@@ -65,7 +65,7 @@ def techkid():
 
 
 # Cach 1
-person_list = [billgates, mocha]
+person_list = [caramel, mocha]
 
 
 @app.route('/rm/<int:index>')
@@ -76,7 +76,7 @@ def view_role_model(index):
 # Cach 2:
 person_dict = {
     "mocha": mocha,
-    "billgates": billgates
+    "caramel": caramel
 }
 
 

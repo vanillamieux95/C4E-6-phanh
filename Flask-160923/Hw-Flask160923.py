@@ -34,6 +34,7 @@ sapa = Information(
 
 places_list = [hagiang, sapa]
 
+
 @app.route('/')
 @app.route('/index')
 def index():
