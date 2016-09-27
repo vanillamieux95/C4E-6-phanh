@@ -41,17 +41,27 @@ def index():
     return render_template('Hw-Flask160923-page1.html')
 
 
+@app.route('/sapa')
+def view_sapa_info():
+    return render_template('Hw-Flask160923-page2.html', info = sapa)
+
+
+@app.route('/ha-giang')
+def view_ha_giang_info():
+    return render_template('Hw-Flask160923-page2.html', info = hagiang)
+
+
 @app.route('/fav')
 def favorite():
     return render_template('Hw-Flask160923-page2.html', info = places_list)
 
 
-@app.route('/<int:index>')
-def info_place(index):
-    if index not in places_list:
-        return "Result not found"
-    else:
-        return render_template('Hw-Flask160923-page2.html', info = places_list[index])
+# @app.route('/<int:index>')
+# def info_place(index):
+#     if index not in places_list:
+#         return "Result not found"
+#     else:
+#         return render_template('Hw-Flask160923-page2.html', info = places_list[index])
 
 
 if __name__ == '__main__':
