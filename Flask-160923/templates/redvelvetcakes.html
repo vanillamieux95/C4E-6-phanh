@@ -3,14 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>C4E6 - Flask, HTML, Jinja intro</title>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 </head>
-<body>
-
-{% for person in person_list %}
-    <h1>Cafe night</h1>
-    <h2>I went to Starbuck</h2>
-    <h3>And i had double shot of {{ person.name }}</h3>
-    <img src={{ person.cake }}>
+<body background="">
+ <div class="w3-row">
+    {% for person in person_list %}
+     <div class="w3-half">
+        <div class="w3-container">
+            <div class="w3-card-4 w3-pale-yellow">
+                <h1>Cafe night</h1>
+                <h2>I went to Starbuck</h2>
+                <h3>And i had double shot of {{ person.name }}</h3>
+                <img src="{{ person.cake }}" style="width: 100%" class="w3-center">
+            </div>
+        </div>
+     </div>
+</div>
 {% endfor %}
 
 </body>

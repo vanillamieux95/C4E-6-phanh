@@ -6,13 +6,11 @@
 </head>
 
 <body>
-<h1></h1>
 {% for info in places_list %}
-<h2>Destination: {{ info.name }}</h2>
-<h3>Content: {{ info.description }}</h3>
-<img src="{{ info.img }}">
-<h4> </h4>
-<a href="{{ info.link }}">Read more</a>
+    <h2>Destination: {{ info.name }}</h2>
+    <h3>Content: {{ info.description }}</h3>
+    <img src="{{ info.img }}">
+    <a href="{{ info.link }}">Read more</a>
 {% endfor %}
 
 </body>

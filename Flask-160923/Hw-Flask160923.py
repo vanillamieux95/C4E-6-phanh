@@ -5,9 +5,9 @@ app = Flask(__name__)
 
 class Information:
     def __init__(self, name, description, img, link):
-        self.name = name,
-        self.description = description,
-        self.img = img,
+        self.name = name
+        self.description = description
+        self.img = img
         self.link = link
 
 
@@ -43,17 +43,16 @@ def index():
 
 @app.route('/sapa')
 def view_sapa_info():
-    return render_template('Hw-Flask160923-page2.html', info = sapa)
-
+    return render_template('Hw-Flask160923-page2.html', info=sapa)
 
 @app.route('/ha-giang')
 def view_ha_giang_info():
-    return render_template('Hw-Flask160923-page2.html', info = hagiang)
+    return render_template('Hw-Flask160923-page2.html', info=hagiang)
 
 
 @app.route('/fav')
 def favorite():
-    return render_template('Hw-Flask160923-page2.html', info = places_list)
+    return render_template('Hw-Flask160923-page2.html', places_list=places_list)
 
 
 # @app.route('/<int:index>')
