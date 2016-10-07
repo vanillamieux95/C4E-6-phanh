@@ -28,15 +28,15 @@ caramel = Person(
 # caramel.name = "Salted Caramel Cafe Mocha"
 # caramel.cake = "https://pbs.twimg.com/profile_images/558109954561679360/j1f9DiJi.jpeg"
 
-@app.route('/')
-@app.route('/index')
-def index():
-    return '<h>Welcome to C4E!</h>'
-
-
-@app.route('/new')
-def new():
-    return redirect(url_for('techkids'))
+# @app.route('/')
+# @app.route('/index')
+# def index():
+#     return '<h>Welcome to C4E!</h>'
+#
+#
+# @app.route('/new')
+# def new():
+#     return redirect(url_for('techkids'))
 
 
 @app.route('/school')
@@ -86,7 +86,7 @@ def view_role_model2(name):
 
 
 # Open many profile at once:
-@app.route('/rm')
+@app.route('/')
 def view_role_models():
     return render_template("redvelvetcakes.html", person_list=person_list)
 
