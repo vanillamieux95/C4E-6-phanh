@@ -1,6 +1,7 @@
 from flask import *
 from mongoengine import *
 
+connect()
 app = Flask(__name__)
 
 class Film:
