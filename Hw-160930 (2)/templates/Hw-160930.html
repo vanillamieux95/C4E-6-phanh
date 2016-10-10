@@ -1,29 +1,53 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS</title>
+<title>Eri's Collection</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-<body>
 
-<div class="w3-display-container" style="margin-bottom:50px">
-  <img src="https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-9/992829_10204690160648965_8205472292862649408_n.jpg?oh=cb1db556e284935502688029e1d5f943&oe=5879C716" style="width:100%">
-  <div class="w3-display-bottomleft w3-container w3-amber w3-hover-orange w3-hide-small"
-   style="bottom:10%;opacity:0.7;width:70%">
-  <h2><b>Eri Kusakabe (Ellie)<br>Just an Otaku whose collection is so weird that needed to be share</b></h2>
-</div>
-</div>
-{% for film in film_list %}
-    <div class="w3-row w3-container w3-half" style="margin:50px 0">
-    <div class="w3-half w3-container">
-      <div class="w3-topbar w3-border-amber w3-padding-top">
-        <img src="{{ film.img }}" alt="{{ film.name }}" style="width:100%">
-        <h2>{{ film.name }}</h2>
-        <a href="{{ film.link }}">Watch the anime here</a>
+<body>
+<div class="w3-row">
+    <div class="w3-display-container" style="margin-bottom:50px">
+      <img src="https://scontent-hkg3-1.xx.fbcdn.net/v/t1.0-9/992829_10204690160648965_8205472292862649408_n.jpg?oh=cb1db556e284935502688029e1d5f943&oe=5879C716" style="width:100%">
+      <div class="w3-display-bottomleft w3-container w3-amber w3-hover-orange w3-hide-small"
+       style="bottom:10%;opacity:0.7;width:50%">
+      <h2><b>Eri Kusakabe (Ellie)<br>Just an Otaku whose collection is so weird that needed to be share</b></h2>
       </div>
     </div>
+
+    <div class="w3-row">
+        {% for film in film_list %}
+            <div class="w3-container w3-half" style="margin:50px 0">
+            <div class="w3-container">
+              <div class="w3-topbar w3-border-amber w3-padding-top">
+                <img src="{{ film.img }}" alt="{{ film.name }}"style="width:100%; height:350px; background-image:url({{ film.img }}); background-repeat: no-repeat">
+                <h2>{{ film.name }}</h2>
+                <a href="{{ film.link }}">Watch the anime here</a>
+              </div>
+            </div>
+            </div>
+        {% endfor %}
     </div>
-{% endfor %}
+</div>
+
+<div class="w3-orange w3-container">
+    <h1>Contribute</h1>
+</div>
+
+<div class="w3-container w3-card-4">
+    <form method="post" action="{{ url_for('film') }}">
+    <label>Anime Name: </label>
+    <input type="text" name="name" class="w3-input"><br>
+
+    <label>Poster: </label>
+    <input type="text" name="img" class="w3-input"><br>
+
+    <label>Watch Link: </label>
+    <input type="text" name="link" class="w3-input"><br>
+
+    <input type="submit" value="Upload" class="w3-margin w3-btn w3-right">
+</form>
+</div>
+
 
 </body>
 </html>
-

@@ -1,4 +1,5 @@
 from flask import *
+from mongoengine import *
 
 app = Flask(__name__)
 
@@ -46,10 +47,19 @@ _11eyes = Film(
 
 film_list = [another, charlotte, fantasy, hyouka, kuroshitsuji, _11eyes]
 
-
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def film():
-    return render_template("Hw-160930.html", film_list=film_list)
+    if request.method == 'GET':
+        return render_template("Hw-160930.html", film_list=film_list)
+    elif request.method == 'POST':
+        name = request.form['name']
+        img = request.form['img']
+        link = request.form['link']
+        film = Film(name, link, img)
+        film_list.append(film)
+        return render_template('Hw-160930.html', film_list=film_list)
+
+
 
 if __name__ == '__main__':
     app.run()
