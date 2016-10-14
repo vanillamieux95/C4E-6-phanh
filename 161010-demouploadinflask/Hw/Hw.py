@@ -5,15 +5,15 @@ from werkzeug.utils import secure_filename
 
 
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))            #curent path file
-UPLOAD_FOLDER = os.path.join(APP_ROOT, "static", "collection")   #leading to a inner file from path
+UPLOAD_FOLDER = os.path.join(APP_ROOT, "static/collection")   #leading to a inner file from path
 
 print(UPLOAD_FOLDER)
 
 app = Flask(__name__)
-app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER           #save file to this path
+app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER                      #save file to this path
 
 
-connect()
+# connect()
 app = Flask(__name__)
 
 
@@ -72,13 +72,17 @@ film_list = [another, charlotte, fantasy, hyouka, kuroshitsuji, _11eyes]
 @app.route('/', methods=['GET', 'POST'])
 def film():
     if request.method == 'GET':
-        return render_template("Hw-160930.html", film_list=film_list)
+        return render_template("hw.html", film_list=film_list)
     elif request.method == 'POST':
         name = request.form['name']
-        img = request.form['img']
         link = request.form['link']
         video = request.form['video']
-        film = Film(name, link, img, video)
+        img = request.files['img']
+        if img is not None:
+            filename = secure_filename(img.filename)
+            save_file = os.path.join(app.config["UPLOAD_FOLDER"], filename)  # save file upload in path folder
+            img.save(save_file)  # save file upload in path folder
+        film = Film(name=name, link=link, video=video, img=save_file)
         film_list.append(film)
         return redirect(url_for("film"))
 
