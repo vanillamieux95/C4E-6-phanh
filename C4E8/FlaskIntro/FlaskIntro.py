@@ -30,23 +30,53 @@ pistols = [
 
 ]
 
+revolvers = [
+{
+    "src"   : "http://assets.academy.com/mgen/14/10050414.jpg",
+    "title" : "Ruger® LCR™ .38 Special Double-Action Revolver",
+    "pricetag"  : "$429.99"
+    },
+
+{
+    "src"   : "http://assets.academy.com/mgen/72/10115572.jpg",
+    "title" : "Smith & Wesson Model 637 .38 Special +P Revolver",
+    "pricetag"  : "$429.99"
+    },
+
+{
+    "src"   : "http://assets.academy.com/mgen/27/10104127.jpg",
+    "title" : "Smith & Wesson Model 642 .38 Special +P Revolver",
+    "pricetag"  : "$429.99"
+    },
+
+{
+    "src"   : "http://assets.academy.com/mgen/81/10194781.jpg",
+    "title" : "Taurus Judge® Model 4510 .45/.410 DA/SA Revolver",
+    "pricetag"  : "$479.99"
+    },
+
+]
 
 phanh = [{
-    "avatar"    : "http://hotshotsnm.com/gallery2/gallery/d/415804-5/dxdustballangle.jpg",
+    "avatar"    : "http://static.appstore.vn/a/uploads/thumbnails/092016/deemo_icon.png",
     "fullname"  : "Phuong Anh, NGUYEN PHAM",
     "quote" : "- 不愉快です！-",
     "dob"   : "23.11.1995",
     "phone" : "0122.385.5472",
     "email" : "ph.anh.nguyenpham.l1221@gmail.com",
     "location"  : "Hanoi, Vietnam",
-    "education" : "BA in French and International Business",
-    "workexp"   : "volunteering, "
+    "gradyear"  : ["01-06","06-10","10-13","13-17"],
+    "education" : ["Doan Thi Diem Primary School",
+                   "Lomonosov Middle School",
+                   "Yen Hoa High School",
+                   "BA in French and International Business"],
+    "workexp"   : ["volunteering", "translating", "playing games", "staying home"]
 }]
 
 
 @app.route('/')
 def hello_world():
-    return redirect(url_for("login"))
+    return redirect(url_for("firearms"))
 
 
 number_of_visitor = 0
@@ -72,6 +102,21 @@ def guns():
 @app.route('/contact')
 def gun():
     return render_template("contact.html", person = phanh)
+
+
+@app.route('/cssdemo')
+def css_demo():
+    return render_template("cssdemo.html")
+
+
+@app.route('/w3cssdemo')
+def w3_cssdemo():
+    return render_template("w3cssdemo.html")
+
+
+@app.route('/howly')
+def firearms():
+    return render_template("firearms.html", pistols_list = pistols, revolvers_list = revolvers)
 
 
 if __name__ == '__main__':

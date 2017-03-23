@@ -1,0 +1,11 @@
+.gridthird {
+    display: inline-block;
+    width: 155px;
+    height: 267px;
+    margin: auto;
+    padding: 8px;
+}
+
+.button {
+    opacity: 0.5;
+}
